@@ -1,0 +1,18 @@
+main{
+    width: 1200px;
+    margin:auto;
+    background-color: green;
+
+}
+
+header{
+    background-color: yellow;
+}
+
+article{
+    background-color: gray;
+}
+
+footer{
+    background-color:blue;
+}
