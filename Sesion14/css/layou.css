@@ -11,8 +11,31 @@ header{
 
 article{
     background-color: gray;
+    width: 70%;
+    float: left;
 }
 
 footer{
     background-color:blue;
+    height: 40px;
+    
+    clear: both;
+}
+
+nav{
+    width: 30%;
+    float:left
+
+}
+h1{
+    margin: 0px;
+    padding: 10px;
+}
+
+p{
+    padding: 5px;
+}
+
+li{
+    list-style: none;
 }
