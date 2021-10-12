@@ -4,7 +4,7 @@
     min-height: 100vh;
     display: grid;
     grid-template-columns: 200px 1fr 200px;
-    grid-template-rows: 100px 50px 1fr 100px;
+    grid-template-rows: 100px 50px 1fr 400px;
     grid-template-areas: "my-header " "my-nav" " my-section"  "my-aside" "my-footer";
 }
 
