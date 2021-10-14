@@ -18,6 +18,36 @@ tbody{
 }
 
 .eliana{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Verdana;
 
+}
+
+.div1{
+    float: left;
+    width: 300px;
+    
+}
+.div2{
+    float: left;
+    width: 200px;
+    
+}
+.div3{
+    float: left;
+    width: 200px;
+    
+}
+.div4{
+    float: left;
+    width: 200px;
+    
+}
+.div5{
+    float: left;
+    width: 200px;
+    
+}
+.img{
+    float: left;
+    margin: 20px;
 }
