@@ -51,3 +51,47 @@ tbody{
     float: left;
     margin: 20px;
 }
+
+.caja{
+    float: right;
+    width: 300px;
+
+}
+
+.enviar{
+    float: right;
+    width: 200px;
+}
+
+.info{
+    float: left;
+    width:  300px;
+    
+}
+
+.pry1{
+    float: left;
+    width: 200px;
+}
+
+.pry2{
+    float: left;
+    width: 200px;
+}
+
+.pry3{
+    float: left;
+    width: 350px;
+}
+.pry4{
+    float: left;
+    width: 400px;
+}
+.pry5{
+    float: left;
+    width: 500px;
+}
+.pry6{
+    float: left;
+    width: 200px;
+}
