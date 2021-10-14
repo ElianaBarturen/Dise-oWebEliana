@@ -1,0 +1,23 @@
+thead{
+    grid-area: thead;
+    background-color: darkgrey;
+}
+
+tbody{
+    grid-area: thead;
+    background-color: darkgrey;
+}
+
+.section{
+    background-color:whitesmoke;
+}
+
+#caja1{
+    height: 1000px;
+
+}
+
+.eliana{
+    font-family: 'Courier New', Courier, monospace;
+
+}
