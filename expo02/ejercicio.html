@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/ejercio.css">
+</head>
+<body>
+    <p id="result">El elemento que desencadena "mouseover" tiene identidad: Grupo6</p>
+    <div id="grupo6">
+        Grupo
+        <div id="Eliana">Integrante N°1</div>
+        <div id="Crystian">Integrante N°2</div>
+        <div id="Jairo">Integrante N°3</div>
+        <div id="Eduar">Integrante N°4</div>
+      </div>
+      <script>
+        var grupo = document.getElementById('grupo6'),
+            result  = document.getElementById('result');
+        
+        grupo.addEventListener('mouseover', function(e) {
+            result.innerHTML = "El elemento que desencadena \"mouseover\" tiene identidad: " + e.target.id;
+        }, false);
+      </script>
+</body>
+</html>
+

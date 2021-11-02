@@ -7,27 +7,29 @@
     <link rel="stylesheet" href="css/agendav2.css">
     <title>Document</title>
 </head>
-<body>
-    <div id = "contenedor">
+<body onload="actualizarDatos()" >
+    <div id="contenedor">
         <header>
             <h3>Mi agenda de contactos</h3>
             <hr>
         </header>
-        <form >
+        <form>
             <span>Nombre:</span>
-            <input type="text"  id="nombre"> <br> <br>
-            <span>Num celular</span>
-            <input type="text" id="movil">
-
+            <input type="text" placeholder="Nombre" id="nombre"><br><br>
+            <span>Num celular: </span>
+            <input type="text" placeholder="Movil" id="movil">
         </form>
         <hr>
         <div>
-            <button type="button">Guardar</button>
-            <button type="button">Recuperar</button>
-            <button type="button">Eliminar</button>
-            <button type="button">Eliminar Todos</button>
+            <button type="button" onclick="guardarDato()" >Guardar</button>
+            <button type="button" onclick="recuperarDato()">Recuperar</button>
+            <button type="button" onclick="eliminarDato()">Eliminar</button>
+            <button type="button" onclick="eliminarTodo()">Eliminar todos</button>
         </div>
-
+        <hr>
+        <span class="titu" >Nombre</span> <span class="titu">Celular</span><br>
+        <ul id="contactos"></ul>
     </div>
+    <script type="text/javascript" src="js/agendav2.js"></script>
 </body>
 </html>
