@@ -18,3 +18,21 @@ p::first-letter{
     background-color: red;
 
 }
+
+/*pseudoClases*/
+div:hover{
+    background-color: yellow;
+}
+
+a:hover{
+    color: red;
+}
+a:focus{
+    /*solo para los selectores <a>*/
+    color: green;
+}
+
+a:active{
+    /*solo para los selectores <a>*/
+    color: hotpink;
+}
