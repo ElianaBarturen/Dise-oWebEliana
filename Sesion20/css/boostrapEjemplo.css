@@ -1,0 +1,45 @@
+header{
+    background-color: darkslateblue;
+    height: 150px;
+}
+nav{
+    background-color:  darksalmon;
+    width: 25%;
+    height: 50px;
+}
+
+section{
+    background-color: darkcyan;
+    width: 50%;
+    height: 300px;
+}
+aside{
+    background-color:cadetblue;
+    width: 25%;
+    height: 50px;
+}
+footer{
+    background-color: darkseagreen;
+    height: 100px;
+    clear: left;
+}
+
+@media(min-width: 576px){
+    nav{
+        height: 70px;
+    }
+    aside,
+    section{
+        height: 300px;
+    }
+}
+
+@media (min-width: 768px)  {
+    nav,
+    aside,
+    section{
+        height: 450px;
+    }
+        
+    
+}
