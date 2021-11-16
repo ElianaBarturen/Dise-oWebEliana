@@ -4,30 +4,39 @@ div{
     color: white;
     padding: .2rem .3rem 1rem .3rem;
     position: absolute;
-    border-radius: 2rem 2rem 0 0;
+    border-radius: 2rem 2rem 0rem 0rem;
     animation-name: animar;
-    animation-duration: 3s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
 }
 @keyframes animar{
     0%{
         left: 0;
-        top: 0; }
+        top: 0;
+        
+        color: aqua; }
     10% {
-        left: 5rem;
-        top: 0rem;
+        left: 8.2rem;
+        top: 0.2rem;
+       
         color: #9b59b6; }
     30%{
-        top: 5rem;
-        left: 5rem;
+        top: 32rem;
+        left: 8rem;
         color: white; }
+    
+    40%{
+        top: 32rem;
+        left: 0.5rem; }
+    50%{
+        top: 35rem;
+        left: 1rem; }
     60%{
+        top: 35rem;
+        left: 30rem; }
+    70%{
         top: 5rem;
-        left: 0;
-        color: #9b59b6; }
-    100%{
-        top: 0;
-        left: 0; }
+        left: 20rem; }
 }
    
  
