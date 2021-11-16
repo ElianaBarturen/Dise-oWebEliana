@@ -35,8 +35,18 @@ div{
         top: 35rem;
         left: 30rem; }
     70%{
-        top: 5rem;
-        left: 20rem; }
+        top: 32rem;
+        left: 30rem; }
+    80%{
+        left: 26rem; 
+        top: 32rem;}
+    90%{
+        left: 30rem; 
+        top: 32rem;}
+    100%{
+        top: 32rem;
+        left: 30rem;
+    }
 }
    
  
