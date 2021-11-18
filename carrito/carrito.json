@@ -1,8 +1,8 @@
 [
     {
-      "precio": 1.20, 
+      "precio": 1.00, 
       "id": 1,
-      "title": "Café 400gr"
+      "title" :"Café 400gr"
     },
     {
       "precio": 5.00,

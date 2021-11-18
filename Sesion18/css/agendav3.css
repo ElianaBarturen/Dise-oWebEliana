@@ -1,41 +1,74 @@
 #contenedor{
-    width: 360px;
-    margin:auto;
+    width: 700px;
+    margin: auto;
+    padding-top: auto;
     background-color: floralwhite;
-    padding-left: 10px;
-    font-family: calibr;
+    padding-left: 10;
+    font-family: calibri;
 }
-
-.span{
+span{
     width: 100px;
     display: block;
     float: left;
     padding-left: 4px;
 }
-
 .nom{
-    background-color: darkgrey;
+    background-color: darkgray;
 }
 .titu{
-    background-color:#0df39b ;
+    background-color: lightcoral;
 }
-
 li{
     list-style: none;
     margin-top: 1px;
 }
-
 ul{
-    margin:0px;
+    margin: 0px;
     padding-left: 0px;
 }
-
 .tituemail{
     width: 350px;
-    background-color:#0df39b ;
+    background-color: lightcoral;
+}
+.nomemail{
+    background-color: darkgray;
+    width: 350px;
+}
+#aviso{
+    background-color: floralwhite;
+    width: 500px;
+    text-align: right;
+    font-family: Verdana, Tahoma;
+}
+.entrada{
+    animation-duration: 13s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+
+#agenda{
+    text-align: center;
+    font-family: monospace;
+}
+#cab{
+    background-color: lightgreen;
 }
 
 #aviso{
-    background-color: pink;
-    width: 500px;
+    color: red;
+    text-align: right;
+    font-family: monospace;
+    
+}
+
+@keyframes slidein {
+    from{
+        margin-left: 25%;
+        width: 100%;
+    }
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
 }

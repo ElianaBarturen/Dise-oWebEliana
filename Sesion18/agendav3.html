@@ -5,35 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/agendav3.css">
-    <title>Document</title>
+    <title>Agenda Version03</title>
 </head>
-<body onload="actualizarDatos()">
-    <div id = "contenedor">
-        <header>
-            <h3>Mi agenda de contactos</h3>
+<body onload="actualizarDatos()" >
+    <p class="entrada">    
+            En este formulario podras registrar, guardar, eliminar y limpiar todos los datos personas que ingresas
+    </p>
+
+    <div id="contenedor">
+        <header id="cab">
+            <h3 id="agenda">Mi agenda de contactos <img src="img/agenda.png" alt=""></h3>
             <hr>
         </header>
-        <form >
-            <span>Nombre:</span>
-            <input type="text" placeholder="nombre" id="nombre" onkeypress="return soloLetras(event)"> <br><spa id="aviso"></span> <br>
-            <span>Num celular</span>
-            <input type="text" placeholder="movil" id="movil"> <br> <br>
-            <span>email</span>
+        <form>
+            <span><b>Nombre</b> </span>
+            <input type="text" placeholder="Nombre" id="nombre" onkeypress="return soloLetras(event)" ><br><span id="aviso"></span><br>
+            <span><b>Num celular: </b> </span>
+            <input type="text" placeholder="Movil" id="movil" onkeypress="return soloNumeros(event) " ><br><span id="aviso" ></span> <br>
+            <span><b> Email: </b></span>
             <input type="email" placeholder="email" id="email">
-
         </form>
-        <hr/>
+        <hr>
         <div>
             <button type="button" onclick="guardarDato()" >Guardar</button>
-            <button type="button" onclick="recuperarDato()" >Recuperar</button>
-            <button type="button" onclick="eliminarDato()" >Eliminar</button>
-            <button type="button" onclick="eliminarTodo()" >Eliminar Todos</button>
+            <button type="button" onclick="recuperarDato()">Recuperar</button>
+            <button type="button" onclick="eliminarDato()">Eliminar</button>
+            <button type="button" onclick="eliminarTodo()">Eliminar todos</button>
         </div>
         <hr>
-        <span class="titu">Nombre</span> <span class="titu">Celular</span> <span class="tituemail">email</span> <br>
+        <span class="titu" >Nombre</span> <span class="titu">Celular</span> <span class="tituemail" >email</span> <br>
         <ul id="contactos"></ul>
-
     </div>
-    <script type="text/javascript" src="js/agendav2.js"> </script>
+    <script type="text/javascript" src="js/agendaV3.js"></script>
 </body>
 </html>
