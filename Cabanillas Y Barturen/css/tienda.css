@@ -127,7 +127,6 @@ li a{
 
 #logo{
    width: 15rem; 
-
 }
 
 
@@ -140,6 +139,9 @@ li a{
 
 #icono{
 float: right;
+margin-right: 20px;
+margin-top: 20px;
+
 }
 
 #menu{
